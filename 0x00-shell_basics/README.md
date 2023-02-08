@@ -5,3 +5,4 @@ ls -la - Display current directory contents, including hidden files (starting wi
 ls -na - display current directory contents linux in long format, with user and group IDs displayed numericallyAnd hidden files (starting with .)
 mkdir /tmp/directory name - script that creates a directory
 mv dir 1 dir 2
+rm -r directory-file
