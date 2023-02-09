@@ -13,3 +13,4 @@ README file for shell permission
 12. chmod -R +X . - script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
 12. mkdir -m 751 my_dir - create a directory with specified permissions
 13. chgrp school hello - script that changes the group owner to school for the file hello
+14. chown vincent:staff - this script changes the owner to vincent and group to staff
