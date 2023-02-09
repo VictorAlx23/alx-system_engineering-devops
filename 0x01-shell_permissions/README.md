@@ -10,3 +10,4 @@ README file for shell permission
 9. chmod 007 hello - others alone have full permission rwx to the file hello
 10. chmod 753 hello - script that sets permission to -rwxr-x-wx
 11. chmod --reference=olleh hello - Write a script that sets the mode of the file hello the same as olleh’s mode
+12. chmod -R -X . - script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
