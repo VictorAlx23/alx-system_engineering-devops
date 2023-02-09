@@ -8,3 +8,5 @@ mv dir 1 dir 2
 rm -r directory-file
 rm -r directory
 cd - script that changes to the previous directory
+ls -la . .. /boot
+file nameoffile
