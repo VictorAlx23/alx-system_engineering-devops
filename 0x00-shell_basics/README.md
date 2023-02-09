@@ -25,5 +25,8 @@ The listing should be alpha ordered, except for the directories . and .. which s
 Only digits and letters are used to sort; Digits should come first [-v]
 
 You can assume that all the files we will test with will have at least one letter or one digit
-
 The listing should end with a new line
+
+0 string SCHOOL School data - school data file to always contain the string SCHOOL at offsett zero [0]
+!:mime School = multipurpose internet mail extension (mime). it allow users exchange diffrent kind of data
+file -C -m school.mgc : This script is to compile files
