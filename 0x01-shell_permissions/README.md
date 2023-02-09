@@ -6,3 +6,5 @@ README file for shell permission
 5. touch hello - Write a script that creates an empty file call
 6. chmod u+x hello - a script that allows execution permit for the file hello
 7. chmod ug+x,o+r - script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello u - owner g - group x -execution o - others r - read
+8. chmod ugo+x hello - script that adds execution permission to the owner, the group owner and the other users, to the file hello
+
