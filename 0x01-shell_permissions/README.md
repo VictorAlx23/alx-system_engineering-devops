@@ -9,3 +9,4 @@ README file for shell permission
 8. chmod ugo+x hello - script that adds execution permission to the owner, the group owner and the other users, to the file hello
 9. chmod 007 hello - others alone have full permission rwx to the file hello
 10. chmod 753 hello - script that sets permission to -rwxr-x-wx
+11. chmod --reference=olleh hello - Write a script that sets the mode of the file hello the same as olleh’s mode
