@@ -8,3 +8,4 @@ README file for shell permission
 7. chmod ug+x,o+r - script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello u - owner g - group x -execution o - others r - read
 8. chmod ugo+x hello - script that adds execution permission to the owner, the group owner and the other users, to the file hello
 9. chmod 007 hello - others alone have full permission rwx to the file hello
+10. chmod 753 hello - script that sets permission to -rwxr-x-wx
