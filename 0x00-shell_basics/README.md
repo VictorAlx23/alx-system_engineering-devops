@@ -10,3 +10,6 @@ rm -r directory
 cd - script that changes to the previous directory
 ls -la . .. /boot
 file nameoffile
+ln -s /bin/ls __ls__ - Creating a symbolic link
+cp -nu *.html .. -Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+
