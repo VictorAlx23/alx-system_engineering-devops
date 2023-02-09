@@ -6,3 +6,4 @@ ls -na - display current directory contents linux in long format, with user and 
 mkdir /tmp/directory name - script that creates a directory
 mv dir 1 dir 2
 rm -r directory-file
+rm -r directory
