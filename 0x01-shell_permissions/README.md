@@ -15,3 +15,4 @@ README file for shell permission
 13. chgrp school hello - script that changes the group owner to school for the file hello
 14. chown vincent:staff * - this script changes the owner to vincent and group to staff for all durectories
 15. chown -h vincent:staff - script that changes the owner and the group owner of _hello to vincent and staff respectively.
+16. telnet towel.blinkenlights.nl - script that will play the StarWars IV episode in the terminal
