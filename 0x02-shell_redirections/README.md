@@ -4,3 +4,4 @@ This is the readme file for 0x02-shell directions
 3. tail -n 10 /etc/passwd: Display the last 10 lines of /etc/passwd
 4. head -n 10 /etc/passwd: Display the first 10 lines of /etc/passwd 
 5. cat filename | head -3 | tail -1 : print the third lind of the file
+6. ls -la > ls-cwd_content: Write a script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it
