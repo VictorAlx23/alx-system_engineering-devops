@@ -7,4 +7,4 @@ This is the readme file for 0x02-shell directions
 6. ls -la > ls-cwd_content: Write a script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it.
 7. tail -1 iacta >> iacta : Duplicating the last line of a file in the same file
 8. find .  -type f -name "*.js" -delete: Delete all .js files in the current working directory
-9. find . -type d ! -path . | wc -l
+9. find . -type d ! -path . | wc -l: Counts all parent directories, subdirectories and hidden directories
