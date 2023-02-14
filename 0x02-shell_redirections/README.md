@@ -11,5 +11,5 @@ This is the readme file for 0x02-shell directions
 10. sort | uniq -u : Create a script that takes a list of words as input and prints only words that appear exactly once
 11. egrep "root" /etc/passwd : - Display lines containing the pattern “root” from the file /etc/passwd
 12. grep "bin" /etc/passwd | wc -l : grep looks for the matching files and wc counts it.
-13. grep -A 3 "bin" /etc/passwd: Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
+13. grep -A 3 "root" /etc/passwd: Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
 
