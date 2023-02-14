@@ -8,3 +8,4 @@ This is the readme file for 0x02-shell directions
 7. tail -1 iacta >> iacta : Duplicating the last line of a file in the same file
 8. find .  -type f -name "*.js" -delete: Delete all .js files in the current working directory
 9. find . -type d ! -path . | wc -l: Counts all parent directories, subdirectories and hidden directories
+10. sort | uniq -u : Create a script that takes a list of words as input and prints only words that appear exactly once
