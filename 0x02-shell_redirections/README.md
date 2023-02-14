@@ -9,3 +9,5 @@ This is the readme file for 0x02-shell directions
 8. find .  -type f -name "*.js" -delete: Delete all .js files in the current working directory
 9. find . -type d ! -path . | wc -l: Counts all parent directories, subdirectories and hidden directories
 10. sort | uniq -u : Create a script that takes a list of words as input and prints only words that appear exactly once
+11. egrep "root" /etc/passwd : - Display lines containing the pattern “root” from the file /etc/passwd
+
