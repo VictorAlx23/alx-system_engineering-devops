@@ -17,3 +17,4 @@ This is the readme file for 0x02-shell directions
 16. tr A Z | c e: Replace all characters A and c from input to Z and e respectively
 17. tr -d C | tr -d c :- a script that removes all letters c and C from input
 18. rev - Write a script that reverse its input
+19. cut -d ':' -f 1.6 /etc/passwd | sort
