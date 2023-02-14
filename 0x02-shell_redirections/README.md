@@ -16,4 +16,4 @@ This is the readme file for 0x02-shell directions
 15. egrep ^[[:alpha:]] /etc/ssh/sshd_config - Display all lines of the file /etc/ssh/sshd_config starting with a letter
 16. tr A Z | c e: Replace all characters A and c from input to Z and e respectively
 17. tr -d C | tr -d c :- a script that removes all letters c and C from input
-
+18. rev - Write a script that reverse its input
