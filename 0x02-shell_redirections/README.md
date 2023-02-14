@@ -15,3 +15,5 @@ This is the readme file for 0x02-shell directions
 14. egrep -v "bin" /etc/passwd : Display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
 15. egrep ^[[:alpha:]] /etc/ssh/sshd_config - Display all lines of the file /etc/ssh/sshd_config starting with a letter
 16. tr A Z | c e: Replace all characters A and c from input to Z and e respectively
+17. tr -d C | tr -d c :- a script that removes all letters c and C from input
+
