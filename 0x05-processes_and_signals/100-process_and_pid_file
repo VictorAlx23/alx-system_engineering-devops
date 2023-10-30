@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# Bash script that manages PID file and handles signals
+
+pidfile="/var/run/myscript.pid"
+
+# Function to remove the PID file and exit
+clean_up() {
+    rm -f "$pidfile"
+    exit
+}
+
+# Trap SIGTERM and SIGQUIT signals
+trap 'echo "I hate the kill command"; clean_up' SIGTERM
+trap 'clean_up' SIGQUIT
+
+# Trap SIGINT signal
+trap 'echo "Y U no love me?!"' SIGINT
+
+# Create the PID file with the current script's PID
+echo $$ > "$pidfile"
+
+# Infinite loop displaying "To infinity and beyond"
+while true; do
+    echo "To infinity and beyond"
+    sleep 2
+done
+
