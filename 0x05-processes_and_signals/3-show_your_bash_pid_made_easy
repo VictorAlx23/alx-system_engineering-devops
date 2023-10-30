@@ -7,7 +7,8 @@ for pid_dir in /proc/[0-9]*/; do
 
     if [ -f "$cmd_file" ] && grep -q "bash" "$cmd_file"; then
         process_name=$(cat "$cmd_file" | tr -d '\0')
-        echo "PID: $pid, Process Name: $process_name"
+	
+        echo "PID: $pid $process_name"
     fi
 done
 
