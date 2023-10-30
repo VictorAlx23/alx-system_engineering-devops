@@ -1,10 +1,7 @@
 #!/usr/bin/env bash
-# This Bash script stops the "7-highlander" process.
+# This Bash script stops the "7-highlander" process
 
-# Use pkill to stop the "7-highlander" process
 pkill -f "7-highlander"
-
-# Check the exit status of pkill
 if [ $? -eq 0 ]; then
     echo "Successfully stopped '7-highlander' process."
 else
